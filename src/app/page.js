@@ -52,7 +52,7 @@ export default function Home() {
       image: '/neet2024-rank-01.webp'
     },
     {
-      text: `“I felt that I couldn't understand Medicine without Dr. Rakesh's videos. His conceptual stories have always stuck in my mind easily. I regularly took all the Marrow Test series - GTs, Subject Wise Tests, and Mini Tests.”`,
+      text: `“I felt that I couldn&apos;t understand Medicine without Dr. Rakesh&apos;s videos. His conceptual stories have always stuck in my mind easily. I regularly took all the Marrow Test series - GTs, Subject Wise Tests, and Mini Tests.”`,
       name: `Dr. Anjali`,
       image: '/neet2024-rank-02.webp'
     },
@@ -77,7 +77,7 @@ export default function Home() {
       image: '/neet2024-rank-05.webp'
     },
     {
-      text: `“Compared to sitting and reading through a voluminous textbook, it was easier to go back to Bailey after watching Dr. Rohan's Surgery videos, or to revisit some of the flowcharts after listening to Dr. Rakesh's Medicine videos. OBG was also very simplified after listening to Dr. Sakshi's videos.”`,
+      text: `“Compared to sitting and reading through a voluminous textbook, it was easier to go back to Bailey after watching Dr. Rohan&apos;s Surgery videos, or to revisit some of the flowcharts after listening to Dr. Rakesh&apos;s Medicine videos. OBG was also very simplified after listening to Dr. Sakshi&apos;s videos.”`,
       name: `Dr. Hamsavardhini`,
       image: '/neet2024-rank-06.webp'
     },
@@ -179,7 +179,7 @@ export default function Home() {
             Error Free, Evidence-Based
           </h1>
           <p className="max-w-[605px] text-lg text-[#7b8182] font-semibolds leading-7">
-            Every content on Marrow is peer-reviewed and comes with the latest edition of standard textbooks as references. Also, our doctors take them through multiple levels of stringent review to make sure there's no room for error.
+            Every content on Marrow is peer-reviewed and comes with the latest edition of standard textbooks as references. Also, our doctors take them through multiple levels of stringent review to make sure there&apos;s no room for error.
           </p>
         </div>
         <div className="flex flex-col gap-2">
@@ -206,13 +206,13 @@ export default function Home() {
             Be part of the largest Pan-India test series
           </h1>
           <p className="max-w-[605px] text-lg text-[#7b8182] font-semibolds leading-7">
-            Marrow test series have set a record with the largest number of participants nation-wide. Participate in Marrow mock tests on a Laptop/Desktop to simulate the real exam. Take the test when it’s Live to get an accurate all-India rank. Also, comes with in-depth subject-wise performance analytics.
+            Marrow test series have set a record with the largest number of participants nation-wide. Participate in Marrow mock tests on a Laptop/Desktop to simulate the real exam. Take the test when it&apos;s Live to get an accurate all-India rank. Also, comes with in-depth subject-wise performance analytics.
           </p>
         </div>
         <div className="flex flex-col gap-2">
           <span className="font-bold text-[#62c8df] text-xl">07</span>
           <h1 className="font-bold text-black text-xl">
-            Prepared by India's most loved medical teachers & top rank holders
+            Prepared by India&apos;s most loved medical teachers & top rank holders
           </h1>
           <p className="max-w-[605px] text-lg text-[#7b8182] font-semibolds leading-7">
             MCQs & videos on Marrow are prepared and reviewed by only the best teachers across the country. After every major exam like NEET-PG, INICET etc, Marrow works with the top 20% of the first 100 rankers to update the QBank.
