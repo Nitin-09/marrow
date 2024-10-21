@@ -1,0 +1,42 @@
+import Image from "next/image";
+
+export default function Home() {
+  return (
+    <div className='h-fit'>
+      <div className='h-20 w-screen bg-[#1d7386] flex justify-between px-6 py-2 '>
+        <div className="flex items-center gap-8">
+          <Image src={'./marrow-blue.svg'} width={100} height={100} ></Image>
+          <div>
+            <a className="text-white font-bold text-sm" href="/">Courses</a>
+          </div>
+          <div>
+            <a className="text-white font-bold text-sm" href="/">Plans</a>
+          </div>
+          <div>
+            <a className="text-white font-bold text-sm" href="/">Careers</a>
+          </div>
+          <div>
+            <a className="text-white font-bold text-sm" href="/">Contact</a>
+          </div>
+        </div>
+        <div className="flex items-center gap-4">
+          <a href="/" className="border-[1px] border-white flex justify-center items-center w-fit rounded-lg gap-[6px] p-2 bg-transparent hover:bg-slate-100 hover:bg-opacity-50">
+            <Image src={'./baseline-apple.svg'} width={20} height={20} ></Image>
+            <div className="flex flex-col gap--[2px]">
+              <span className="text-white text-[8px] opacity-50">Get it on</span>
+              <span className="text-white text-[8px]">Apple Store</span>
+            </div>
+          </a>
+          <a href="/" className="border-[1px] border-white flex justify-center items-center w-fit rounded-lg gap-[6px] p-2 hover:bg-slate-100 hover:bg-opacity-50">
+            <Image src={'./google-playstore.svg'} width={20} height={20} ></Image>
+            <div className="flex flex-col gap--[2px]">
+              <span className="text-white text-[8px] opacity-50">Get it on</span>
+              <span className="text-white text-[8px]">Play Store</span>
+            </div>
+          </a>
+          <a href="/" className="bg-[#62c8df] text-base text-white p-2 rounded-lg shadow-xl shadow-[#62c8df1c] flex justify-center items-center">Login/Signup</a>
+        </div>
+      </div>
+    </div>
+  );
+}
